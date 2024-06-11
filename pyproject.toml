@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "teli game"
+version = "0.0.1"
+description = "Jogo criado através da IA Geracional ChatGPT da OpenAI."
+authors = ["TeliDev <hiagobvt@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.5.2"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
